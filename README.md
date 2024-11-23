@@ -112,7 +112,8 @@ Run the below command to Install Docker
 
 ```
 sudo apt update
-sudo apt install docker.io
+
+sudo dnf install docker -y
 ```
  
 ### Grant Jenkins user and Ubuntu user permission to docker deamon.
