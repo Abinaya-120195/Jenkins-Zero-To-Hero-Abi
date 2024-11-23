@@ -30,8 +30,8 @@ Pre-Requisites:
 Install Java
 
 ```
-sudo yum update
-sudo yum install java
+
+ sudo yum install -y java-17-amazon-corretto-devel
 ```
 
 Verify Java is Installed
