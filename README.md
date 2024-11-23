@@ -134,5 +134,9 @@ http://<ec2-instance-public-ip>:8080/restart
 The docker agent configuration is now successful.
 
 
+Install git 
+
+sudo yum install git
+
 
 
