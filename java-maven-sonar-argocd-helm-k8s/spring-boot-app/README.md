@@ -57,8 +57,8 @@ adduser sonarqube
 passwd sonarqube
 sudo su sonarqube
 sudo yum install unzip
-sudo chmod -R 755 /home/sonarqube
-sudo chown -R sonarqube:sonarqube /home/sonarqube
+chmod -R 755 /home/sonarqube
+chown -R sonarqube:sonarqube /home/sonarqube
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.96327.zip
 unzip *
 chmod -R 755 /home/sonarqube/sonarqube-10.7.0.96327
