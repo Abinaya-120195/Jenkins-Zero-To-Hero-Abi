@@ -51,6 +51,8 @@ sudo yum upgrade
 sudo yum install fontconfig java-17-openjdk
 sudo yum install jenkins
 sudo systemctl daemon-reload
+sudo systemctl start jenkins
+
 ```
 
 **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
