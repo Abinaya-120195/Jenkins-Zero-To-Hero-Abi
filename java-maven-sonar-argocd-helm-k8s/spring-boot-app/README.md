@@ -55,14 +55,15 @@ Hurray !! Access the application on `http://<ip-address>:8010`
 check once sudo install unzip
 adduser sonarqube
 passwd sonarqube
+sudo su sonarqube
 sudo yum install unzip
 sudo chmod -R 755 /home/sonarqube
 sudo chown -R sonarqube:sonarqube /home/sonarqube
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.96327.zip
 unzip *
-chmod -R 755 /home/sonarqube/sonarqube-9.4.0.54424
-chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
-cd sonarqube-9.4.0.54424/bin/linux-x86-64/
+chmod -R 755 /home/sonarqube/sonarqube-10.7.0.96327
+chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-10.7.0.96327
+cd sonarqube-10.7.0.96327/bin/linux-x86-64/
 ./sonar.sh start
 ```
 
