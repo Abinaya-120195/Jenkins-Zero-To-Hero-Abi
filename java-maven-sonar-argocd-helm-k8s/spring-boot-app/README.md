@@ -60,6 +60,8 @@ sudo yum install unzip
 chmod -R 755 /home/sonarqube
 chown -R sonarqube:sonarqube /home/sonarqube
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.96327.zip
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.96327.zip -O ~/sonarqube-10.7.0.96327.zip
+
 unzip *
 chmod -R 755 /home/sonarqube/sonarqube-10.7.0.96327
 chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-10.7.0.96327
